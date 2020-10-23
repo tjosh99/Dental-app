@@ -1,0 +1,8 @@
+{
+  "name": "itmobile",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

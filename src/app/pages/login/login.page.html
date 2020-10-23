@@ -1,0 +1,17 @@
+<ion-content>
+  <form (submit)="login_user($event)" ngNativeValidate>
+    <br>
+    <br>
+    <h2>Account Login</h2>
+    <ion-item>
+      <ion-label position="floating">Username</ion-label>
+      <ion-input name="username" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input name="username" type="password" required></ion-input>
+    </ion-item >
+    <ion-button class="asd"type="submit" color="primary" shape="round">Login</ion-button><br>
+    <ion-button  color="primary" shape="round" routerLink="/register">Create account</ion-button>
+  </form>
+</ion-content>
